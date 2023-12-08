@@ -1,0 +1,202 @@
+/* RESET */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: top;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Styles */
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.container div {
+	outline: 2px solid red;
+}
+
+.first {
+	background: blue;
+  display: flex;
+}
+
+.first > div {
+	width: 400px;
+	height: 400px;
+}
+
+.second {
+	background: green;
+  display: flex;
+}
+
+.second > div {
+	width: 800px;
+}
+
+.second > div + div {
+	width: 400px;
+}
+.second_part_one > div {
+	height: 200px;
+}
+
+.second_part_two > div {
+	height: 133.33px;
+}
+
+.third {
+	background-color: orange;
+  display: flex;
+  height: 400px;
+}
+
+.third_part_one {
+	width: 400px;
+	height: 400px;
+}
+
+.third_part_two {
+	width: 800px;
+  height: 400px;
+}
+
+.third_subgroup_one {
+  height: 200px;
+}
+
+.third_subgroup_two {
+  height: 200px;
+  width: 800px;
+  display: flex;
+}
+
+.sublast_group_one {
+  width: 400px;
+  height: 200px;
+}
+
+.sublast_group_two {
+  width: 400px;
+  height: 200px;
+}
+
+.sublast_group_two div {
+  height: 100px;
+}
